@@ -31,7 +31,9 @@ class EmployeeController extends Controller
 
     /**
      * Store a newly created resource in storage.
-     * Validates the inputted data on the basins of rules array
+     * Validates the inputted data on the basis of rules array
+     * 
+     * Validator::make     used validator class and make method to create an instance of validator
      * 
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response under $res variable
